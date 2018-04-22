@@ -1,0 +1,26 @@
+﻿2018/02/11 23:57:35 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\URYYY\Desktop\2018\AkemiHomura\html\html.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\html.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\AkemiHomura\Parser.cpp ..\AkemiHomura\Tag.cpp
+         Parser.cpp
+     1>..\AkemiHomura\Parser.cpp(56): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>..\AkemiHomura\Parser.cpp(211): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
+     1>..\AkemiHomura\Parser.cpp(219): warning C4800: 'char *' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         Tag.cpp
+     1>..\AkemiHomura\Tag.cpp(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\URYYY\Desktop\2018\AkemiHomura\Release\html.lib" /NOLOGO /LTCG Release\Parser.obj
+         Release\Tag.obj
+         html.vcxproj -> C:\Users\URYYY\Desktop\2018\AkemiHomura\Release\html.lib
+       FinalizeBuildStatus:
+         ファイル "Release\html.unsuccessfulbuild" を削除しています。
+         "Release\html.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\URYYY\Desktop\2018\AkemiHomura\html\html.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.03
