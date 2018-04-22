@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Airgui.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Airgui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Airgui_Test.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="renn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Airgui_Test.exe.manifest" />
+  </ItemGroup>
+</Project>

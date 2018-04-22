@@ -1,0 +1,4 @@
+LIBRARY
+EXPORTS
+		ioVA_DwmEnableComposition @1
+		ioVA_IsEnableOverlay @2

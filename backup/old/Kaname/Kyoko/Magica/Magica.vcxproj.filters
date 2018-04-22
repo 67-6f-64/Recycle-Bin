@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="gui.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="apihook.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Magica.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{df2824d3-7bec-449a-9804-49f054e9e981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{e1520d9a-b290-4120-b1b6-68e64035e85e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gui.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="apihook.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Magica.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="AirWF.cpp">
+      <Filter>AirWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="AirSW.cpp">
+      <Filter>AirWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="AirMW.cpp">
+      <Filter>AirWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="AirLC.cpp">
+      <Filter>AirWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="AirF.cpp">
+      <Filter>AirWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="AirD.cpp">
+      <Filter>AirWindow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="TestClient.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AirWindow">
+      <UniqueIdentifier>{e075c109-8de6-44d0-b2d2-10976455054a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirWindow.h">
+      <Filter>AirWindow</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

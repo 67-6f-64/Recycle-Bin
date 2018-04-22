@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="dinput8.cpp" />
+    <ClCompile Include="MSCRC.cpp" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="Additional.cpp" />
+    <ClCompile Include="HWID.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dinput8.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dinput8.h" />
+    <ClInclude Include="MSCRC.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="Additional.h" />
+    <ClInclude Include="HWID.h" />
+  </ItemGroup>
+</Project>

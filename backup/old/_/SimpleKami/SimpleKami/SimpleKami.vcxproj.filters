@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="SimpleGUI.cpp" />
+    <ClCompile Include="SimpleScript.cpp" />
+    <ClCompile Include="SimpleKami.cpp" />
+    <ClCompile Include="AirFilter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleGUI.h" />
+    <ClInclude Include="SimpleScript.h" />
+    <ClInclude Include="SimpleKami.h" />
+    <ClInclude Include="AirFilter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="SimpleKami.dll.manifest" />
+  </ItemGroup>
+</Project>

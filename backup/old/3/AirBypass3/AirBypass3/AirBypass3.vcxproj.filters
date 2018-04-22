@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="A3GUI.cpp" />
+    <ClCompile Include="MapleStory.cpp" />
+    <ClCompile Include="HackShield.cpp" />
+    <ClCompile Include="AirMemory.cpp" />
+    <ClCompile Include="MultiClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A3GUI.h" />
+    <ClInclude Include="MapleStory.h" />
+    <ClInclude Include="HackShield.h" />
+    <ClInclude Include="AirMemory.h" />
+    <ClInclude Include="MultiClient.h" />
+  </ItemGroup>
+</Project>

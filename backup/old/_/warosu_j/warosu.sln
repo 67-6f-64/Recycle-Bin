@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "warosu", "warosu\warosu.vcxproj", "{E8388902-3099-4525-966D-CB4DED9F50AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8388902-3099-4525-966D-CB4DED9F50AA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8388902-3099-4525-966D-CB4DED9F50AA}.Debug|Win32.Build.0 = Debug|Win32
+		{E8388902-3099-4525-966D-CB4DED9F50AA}.Release|Win32.ActiveCfg = Release|Win32
+		{E8388902-3099-4525-966D-CB4DED9F50AA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

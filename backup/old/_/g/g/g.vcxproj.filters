@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="AirGUI_Main.cpp">
+      <Filter>AirLib</Filter>
+    </ClCompile>
+    <ClCompile Include="AirGUI_Sub.cpp">
+      <Filter>AirLib</Filter>
+    </ClCompile>
+    <ClCompile Include="blabla.cpp" />
+    <ClCompile Include="Packet_GUI.cpp" />
+    <ClCompile Include="AirGUI_List.cpp">
+      <Filter>AirLib</Filter>
+    </ClCompile>
+    <ClCompile Include="AirFunction.cpp">
+      <Filter>AirLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="g.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Air.h">
+      <Filter>AirLib</Filter>
+    </ClInclude>
+    <ClInclude Include="AirGUI_Main.h">
+      <Filter>AirLib</Filter>
+    </ClInclude>
+    <ClInclude Include="AirGUI_Sub.h">
+      <Filter>AirLib</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla.h" />
+    <ClInclude Include="Packet_GUI.h" />
+    <ClInclude Include="AirGUI_List.h">
+      <Filter>AirLib</Filter>
+    </ClInclude>
+    <ClInclude Include="AirFunction.h">
+      <Filter>AirLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AirLib">
+      <UniqueIdentifier>{d8ab215e-db00-4232-80fd-11c56756f52f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

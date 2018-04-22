@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Hyado.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Mera.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Dein.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hyado.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Mera.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Dein.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{9ab5d48b-2927-438d-ba8f-8de65254451f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Hyado.exe.manifest" />
+  </ItemGroup>
+</Project>

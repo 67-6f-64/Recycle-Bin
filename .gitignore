@@ -1,4 +1,8 @@
 *.exe
 *.dll
+*.pdb
+*.txt
+*.log
+*.zip
 Release/
 Debug/

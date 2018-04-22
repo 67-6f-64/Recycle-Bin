@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AirWindow\AirIO.cpp" />
+    <ClCompile Include="..\AirWindow\AirMW.cpp" />
+    <ClCompile Include="..\AirWindow\AirLC.cpp" />
+    <ClCompile Include="..\AirWindow\AirSW.cpp" />
+    <ClCompile Include="..\AirWindow\AirWF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AirWindow\AirWindow.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="AirF2.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Parser2.cpp" />
+    <ClCompile Include="Singeki.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="AirPE.dll.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirF2.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="singeki.h" />
+  </ItemGroup>
+</Project>

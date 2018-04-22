@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AirIO.cpp" />
+    <ClCompile Include="AirLC.cpp" />
+    <ClCompile Include="AirMW.cpp" />
+    <ClCompile Include="AirSW.cpp" />
+    <ClCompile Include="AirWF.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirWindow.h" />
+  </ItemGroup>
+</Project>

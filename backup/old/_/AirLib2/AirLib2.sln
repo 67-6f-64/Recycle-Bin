@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AirLib2", "AirLib2\AirLib2.vcxproj", "{3A0751F3-33FE-4E75-91A4-0C3501B9B22D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{2238A575-0BFC-469C-82DF-5D8B7AF19128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A0751F3-33FE-4E75-91A4-0C3501B9B22D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A0751F3-33FE-4E75-91A4-0C3501B9B22D}.Debug|Win32.Build.0 = Debug|Win32
+		{3A0751F3-33FE-4E75-91A4-0C3501B9B22D}.Release|Win32.ActiveCfg = Release|Win32
+		{3A0751F3-33FE-4E75-91A4-0C3501B9B22D}.Release|Win32.Build.0 = Release|Win32
+		{2238A575-0BFC-469C-82DF-5D8B7AF19128}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2238A575-0BFC-469C-82DF-5D8B7AF19128}.Debug|Win32.Build.0 = Debug|Win32
+		{2238A575-0BFC-469C-82DF-5D8B7AF19128}.Release|Win32.ActiveCfg = Release|Win32
+		{2238A575-0BFC-469C-82DF-5D8B7AF19128}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

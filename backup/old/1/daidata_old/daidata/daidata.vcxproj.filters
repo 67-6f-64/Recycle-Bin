@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brynhildr.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="html.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{077ef4ce-cf45-42f9-b1cc-f1d1b9789131}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

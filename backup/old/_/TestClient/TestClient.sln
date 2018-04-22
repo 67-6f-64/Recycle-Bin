@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestClient", "TestClient\TestClient.vcxproj", "{B9D34670-695B-41C8-B748-DB613B1F0B5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AirWindow", "AirWindow\AirWindow.vcxproj", "{E49845BA-5758-4A89-858C-D6D86D701237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9D34670-695B-41C8-B748-DB613B1F0B5A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B9D34670-695B-41C8-B748-DB613B1F0B5A}.Debug|Win32.Build.0 = Debug|Win32
+		{B9D34670-695B-41C8-B748-DB613B1F0B5A}.Release|Win32.ActiveCfg = Release|Win32
+		{B9D34670-695B-41C8-B748-DB613B1F0B5A}.Release|Win32.Build.0 = Release|Win32
+		{E49845BA-5758-4A89-858C-D6D86D701237}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E49845BA-5758-4A89-858C-D6D86D701237}.Debug|Win32.Build.0 = Debug|Win32
+		{E49845BA-5758-4A89-858C-D6D86D701237}.Release|Win32.ActiveCfg = Release|Win32
+		{E49845BA-5758-4A89-858C-D6D86D701237}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

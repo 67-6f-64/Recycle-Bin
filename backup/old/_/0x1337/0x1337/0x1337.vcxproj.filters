@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{cb253e65-ce76-4b83-9142-7c00e5cb0b54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Hyado.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Mera.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="ListWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hyado.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Mera.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ListWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="0x1337.exe.manifest" />
+  </ItemGroup>
+</Project>

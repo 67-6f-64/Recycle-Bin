@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ResourceCompile Include="NE2T.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="NE2T.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NE2T.cpp" />
+    <ClCompile Include="NE2TGUI.cpp" />
+    <ClCompile Include="NE2T_Hook.cpp" />
+    <ClCompile Include="NE2T_Memory.cpp" />
+    <ClCompile Include="NE2T_Aob.cpp" />
+  </ItemGroup>
+</Project>

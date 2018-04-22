@@ -1,0 +1,8 @@
+LIBRARY
+EXPORTS
+	ijlInit @2
+	ijlFree @3
+	ijlRead @4
+	ijlWrite @5
+	ijlGetLibVersion
+	ijlErrorStr

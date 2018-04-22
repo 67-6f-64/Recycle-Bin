@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="warosuGUI.cpp" />
+    <ClCompile Include="PacketHook.cpp" />
+    <ClCompile Include="SendPacket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="warosu.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="warosuGUI.h" />
+    <ClInclude Include="PacketHook.h" />
+    <ClInclude Include="SendPacket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="warosu.dll.manifest" />
+  </ItemGroup>
+</Project>

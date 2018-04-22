@@ -1,0 +1,7 @@
+LIBRARY dinput8
+EXPORTS
+	DllGetClassObject = dinput8_1 @1
+	DllCanUnloadNow = dinput8_2 @2
+	DirectInput8Create = dinput8_3 @3
+	DllRegisterServer = dinput8_4 @4
+	DllUnregisterServer = dinput8_5 @5
