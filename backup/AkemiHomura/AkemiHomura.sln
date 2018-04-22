@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AkemiHomura", "AkemiHomura\AkemiHomura.vcxproj", "{877611E5-07BF-43C6-AEF9-804FFC078D26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "html", "html\html.vcxproj", "{F01A026B-8283-4A02-98CA-644DCB977A42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brynhildr", "brynhildr\brynhildr.vcxproj", "{1708A1DB-D827-478F-A169-FB53F4E3B0AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{877611E5-07BF-43C6-AEF9-804FFC078D26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{877611E5-07BF-43C6-AEF9-804FFC078D26}.Debug|Win32.Build.0 = Debug|Win32
+		{877611E5-07BF-43C6-AEF9-804FFC078D26}.Release|Win32.ActiveCfg = Release|Win32
+		{877611E5-07BF-43C6-AEF9-804FFC078D26}.Release|Win32.Build.0 = Release|Win32
+		{F01A026B-8283-4A02-98CA-644DCB977A42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F01A026B-8283-4A02-98CA-644DCB977A42}.Debug|Win32.Build.0 = Debug|Win32
+		{F01A026B-8283-4A02-98CA-644DCB977A42}.Release|Win32.ActiveCfg = Release|Win32
+		{F01A026B-8283-4A02-98CA-644DCB977A42}.Release|Win32.Build.0 = Release|Win32
+		{1708A1DB-D827-478F-A169-FB53F4E3B0AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1708A1DB-D827-478F-A169-FB53F4E3B0AC}.Debug|Win32.Build.0 = Debug|Win32
+		{1708A1DB-D827-478F-A169-FB53F4E3B0AC}.Release|Win32.ActiveCfg = Release|Win32
+		{1708A1DB-D827-478F-A169-FB53F4E3B0AC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
